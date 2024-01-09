@@ -1,0 +1,93 @@
+body {
+  background-color: #F5F5F5;
+  background-image: linear-gradient(#1C2C4D, #1C2C4D);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  color: whitesmoke;
+  margin: 4rem auto 7rem auto;
+  text-align: center;
+  max-width: 30rem;
+}
+
+.hero h1 {
+ font-weight: normal;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: center;
+}
+
+.cardContent > div {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 12rem;
+  background-color: #e9e9e9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.cardContent > div > header {
+  color: whitesmoke;
+  background-color: #3b4151;
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+}
+
+.cardContent > div > main {
+  padding: 0.5rem 1.2rem 0 1.2rem;
+}
+
+.cardContent > div > main > p {
+  font-size: 12px;
+}
+
+.cardContent > div > main > button {
+  margin: 1rem 0 1.5rem 1.6rem;
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  background-color: #038ae8;
+  color: whitesmoke;
+  border: 0.5px solid #038ae8;
+  border-radius: 5px;
+}
+
+.cardContent > div > main > .price {
+  border-bottom: 1px solid gray;
+  text-align: center;
+  color: gray;
+}
+
+.currencyNumber {
+  font-size: 60px;
+  color: black;
+}
+
+.currency,
+.packageMonth {
+  font-size: 20px;
+}
+
+.faq > h2 {
+  margin: 4rem 0 4rem 0;
+  text-align: center;
+}
+
+.listfaq {
+  display: flex;
+  justify-content: center;
+}
+
+.listfaq > main {
+  width: 22rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+ transform: scale(1.2);
+ cursor: pointer;
+}
+
+.card1:active, .card2:active, .card3:active {
+ border: 1px solid #3b4151;
+}
